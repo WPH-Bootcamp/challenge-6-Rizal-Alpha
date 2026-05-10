@@ -9,6 +9,12 @@
     "dev": "npm run build && npm start"
   },
   "devDependencies": {
+    "@types/readline-sync": "^1.4.8",
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
+    "readline-sync": "^1.4.10"
   }
 }
